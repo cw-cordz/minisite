@@ -1,1 +1,127 @@
+.cco_templateless_page #chabad_main_content{
+    background:url('/media/images/1367/fFiX13675854.png') !important;
+    background-size:cover !important;
+    background-position:bottom !important;
+  }
 
+  .chabad_header{
+    background:url('/media/images/1367/LxPj13675850.png');
+  background-size: contain;
+  background-color: #b4515e;
+            aspect-ratio: 1366 / 400; 
+            width: 100%;
+            height: auto;
+  }
+
+  .cco_templateless_page .chabad_header, .chabad_header{
+    background-blend-mode: normal !important;
+  }
+
+  .chabad_header div{ 
+visibility:hidden; 
+}
+
+  div.chabad_left_column{ 
+background:transparent; 
+}
+  .large_banner{ 
+    border:1px solid #b4515e; 
+}
+  .large_banner .bannerCta button{
+    background:#b4515e;
+    border:3px solid #ede4ab;
+  }
+  .large_banner .big{
+    color:#b4515e;
+    font-weight:bold;
+  }
+  .large_banner .wrapper-message{
+    margin-block:1.5em !important;
+  }
+  .sPromo-wrap .caption{
+    color:#b4515e !important;
+    font-size:16pt !important;
+  }
+  .sPromo-wrap, .sPromo-wrap img{ 
+    border:0px !important; 
+}
+  .custom_message .message{ 
+    color:#b4515e !important; 
+}
+  .custom_message .title{ 
+    color:#b4515e !important; 
+}
+  .custom_message .read-more_link a{
+    color:#b4515e !important;
+    border:3px solid #b4515e !important;
+  }
+  .custom_message .read-more_link a:hover{
+    background:#ede4ab !important;
+    color:#b4515e !important;
+  }
+  .prepResource-title, .co_calendar_head div, .features_title{
+    font-size:25pt !important;
+    color:#b4515e !important;
+  }
+  .prep-title{ 
+    color:#b4515e !important; 
+}
+  .zmanim .zman-1, .zmanim .zman-2{
+    border-radius:10px !important;
+    background:#b4515e !important;
+    margin:5px 0px !important;
+  }
+  #co_calendar div.co_calendar_body .item.item.first,
+  #co_calendar div.co_calendar_body .item:nth-child(3),
+  #co_calendar div.co_calendar_body .item:nth-child(5),
+  #co_calendar div.co_calendar_body .item:nth-child(7){
+    background:#b4515e;
+  }
+  #co_calendar div.co_calendar_body .item:nth-child(2),
+  #co_calendar div.co_calendar_body .item:nth-child(4),
+  #co_calendar div.co_calendar_body .item:nth-child(6),
+  #co_calendar div.co_calendar_body .item:nth-child(8){
+    background:#ede4ab;
+  }
+  .footer{
+ background:#b4515e; 
+}
+  .cco_templateless_template a,
+  div#chabad_head .chabad_navigator_bar,
+  #menu .item,
+  #navigation,
+  #menu a{
+    background:#b4515e !important;
+  }
+  #menu a{
+    color:white !important;
+    border:0px !important;
+  }
+  .selected a{
+ text-decoration:underline !important;
+ }
+  #menu .item{
+ color:transparent !important;
+ }
+  .titleIcon img{
+ width:125px !important;
+ }
+  .co_calendar_head:before, .pesach-resources .titleIcon{
+    display:none !important;
+  }
+  div#chabad_body_content{
+ background:transparent !important;
+ }
+
+  @media all and (max-width:500px){
+    .chabad_header{
+      height:200px !important;
+    }
+      .headerTitle{
+      display:none;
+    }
+    .body.section_root .bh{
+      right:25px !important;
+      color:white !important;
+    }
+  }
