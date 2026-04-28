@@ -1,23 +1,4 @@
-<script>
-(function () {
-
-  var allowedAIDs = [
-    '7335336',
-    '7335338',
-    '7335348'
-  ];
-
-  var href = document.location.href;
-  var applyStyle = allowedAIDs.some(function(aid) {
-    return href.indexOf(aid) > -1;
-  });
-
-  if (!applyStyle) return;
-
-  const style = document.createElement('style');
-  style.innerHTML = `
-
-  .cco_templateless_page #chabad_main_content{
+.cco_templateless_page #chabad_main_content{
     background:url('/media/images/1367/kDNB13674333.png') !important;
     background-size:cover !important;
     background-position:bottom !important;
@@ -144,9 +125,3 @@ background:transparent;
       color:white !important;
     }
   }
-  `;
-
-  document.head.appendChild(style);
-
-})();
-</script>
